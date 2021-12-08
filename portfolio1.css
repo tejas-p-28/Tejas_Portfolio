@@ -1,0 +1,167 @@
+body{
+    background-color:black;
+    margin: auto;
+}
+.headerContainer{
+    height: 50px;
+    width: 100%;
+    border: 2px solid black;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: #6a7add;
+    margin: auto;
+    position: fixed;
+}
+.topContainer{
+    font-style: normal;
+    color:#01161c;
+    margin-left: 12%;
+    text-decoration: none;
+}
+.content{
+    height: 300px;
+    width: 90%;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 120px;
+}
+.imgContainer{
+    height: 300px;
+    width: 23%;
+    box-shadow: 10px 20px 10px rgb(70, 66, 66);
+
+}
+.img{
+    height: 300px;
+    width: 100%;
+    
+    float: left;
+
+}
+#description{
+    height: 350px;
+    width: 74%;
+    float: right;
+    margin-top: -24%;
+    margin-left: 3%;
+}
+#description > .intro > span{
+    color: #EF6C06;
+    font-style: italic;
+    text-shadow: 1px 6px 9px  grey;
+}
+.intro{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder ;
+    color: blanchedalmond;
+    
+}
+.iconContainer{
+    float: right;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 3%;
+    color: blanchedalmond;
+    
+}
+.icons{
+    margin-left: 10%;
+}
+.iconsSize{
+    margin-left: 0px;
+    height: 30px;
+    width: 30px;
+    margin-right: 0%;
+    background-color: black;
+}
+h1{
+    color: blanchedalmond;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 50px;
+    color:#dd2b66;
+    background-color: rgb(151, 199, 221);
+}
+.skillImg{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40%;
+}
+#education{
+    color: blanchedalmond;
+}
+.eduContainer{
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.year{
+    display: inline-block;
+}
+.yearContainer{
+    color: blanchedalmond;
+    text-align: center;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(214, 193, 6);
+    margin-top: 26px;
+    box-shadow: 5px 10px 5px #959558;
+}
+.qualification{
+    display: inline-block;
+    height: auto;
+    width: auto;
+}
+.quaContainer{
+    margin-top: 1%;
+    font-size: 25px;
+    color: palegreen;
+    text-shadow: 4px 7px 11px  lightgrey;
+}
+
+.mapContainer{
+    border-radius: 8% ;
+    margin-left: 2%;
+}
+.submitContainer{
+    color: white;
+}
+.submit{
+    color: white;
+    float: right;   
+}
+.button{
+    background-color: #1e96c5;
+    border-radius: 7px;
+    height: 32px;
+    width: 88px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 2px 20px;
+}
+.contactContainer{
+    float: right;
+    margin-top: -31%;
+    margin-right: 300px;
+    width: 100%;
+
+}
+.personal{
+    color: white;
+
+}
+.text{
+    color: blanchedalmond;
+    display: inline-block;
+}
+footer{
+    color: white;
+}
