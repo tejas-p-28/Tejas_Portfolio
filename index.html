@@ -4,28 +4,51 @@
         <link rel="icon" href="images/img_108298.png">
         <link rel="stylesheet" href="portfolio1.css" type="text/css">
         <link rel="File" href="second.html" type="text">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
-    <body>
+    <body style="background-color: black;">
         <div class="header">
-            <div class="headerContainer">
-                <a href="#description" class="topContainer"><span>Description</span></a>
-                <a href="#skills" class="topContainer"><span>Skills</span></a>
-                <a href="#education" class="topContainer"><span>Education</span></a>
-                <a href="#contact" class="topContainer"><span>Contact</span></a> 
-            </div>
-            <div class="content">
-                <div class="imgContainer">
-                    <img src="./images/IMG20211201080536.jpg" class="img" alt="This is me">
+            <nav class="navbar navbar-inverse " >
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#portnav">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse" id="portnav" style="position: fixed; background-color: rgb(49, 44, 44); width: 100%; margin-left: -1%;">
+                        <ul class="nav navbar-nav">
+                            <li class="margin"><a href="#description">Description</a></li>
+                            <li class="margin"><a href="#skills">Skills</a></li>
+                            <li class="margin"><a href="#education">Education</a></li>
+                            <li class="margin"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div id="description">
-                    <p class="intro">I'm <span class="intro">Tejas Patil</span></p>
-                    <p class="iconContainer">I am a Developer with vast array of knowledge in many different Front-end and Back-end languages, responsive frameworks, databases, and best code practices. My objective is simple to be the best web developer that I can be and to contribute to the technology industry all that I know and can do.</p>
-                    <div class="icons"> 
-                        <a href="https://www.instagram.com/innocent_boy_tp/" target="_blank"> <img src="images/insta.png" class="iconsSize"></a>
-                        <a href="https://www.facebook.com/tejas.b.patil.12" target="_blank"> <img src="images/Facebook_icon.jpg" class="iconsSize"></a>
-                        <a href="https://mobile.twitter.com/TejasPa98739034" target="_blank"> <img src="images/twitter.jpeg" class="iconsSize"></a>
-                        <a href="https://www.linkedin.com/in/tejas-patil-623430218/" target="_blank"> <img src="images/linkedin.jpeg" class="iconsSize"></a>
-                        <a href="https://github.com/tp-the-developer" target="_blank"> <img src="images/github.jpeg" class="iconsSize"></a>
+            </nav>
+            <div id="description">
+                <div class="container">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="images/IMG20211201080536.jpg" alt="This is me" class="media-object" style="width:250px;height: 250px;">
+                        </div>
+                        <div class="media-body">
+                            <h1 class="media-heading" >I'm <span>Tejas Patil</span></h1>
+                            <p class="mediaContainer">
+                                I am a Developer with vast array of knowledge in many different Front-end and Back-end languages, responsive frameworks, databases, and best code practices. My objective is simple to be the best web developer that I can be and to contribute to the technology industry all that I know and can do.
+                            </p>
+                            <div class="socials">
+                                <a href="#"><img src="images/insta.png" class="socials1" alt="Instagram"></a>
+                                <a href="#"><img src="images/Facebook_icon.jpg" class="socials1" alt="Facebook"></a>
+                                <a href="#"><img src="images/github.jpeg" class="socials1" alt="Github"></a>
+                                <a href="#"><img src="images/linkedin.jpeg" class="socials1" alt="LinkedIn"></a>
+                                <a href="#"><img src="images/twitter.jpeg" class="socials1" alt="Twitter"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -33,57 +56,113 @@
         <div id="skills">
             <h1>Skills</h1>
             <div class="skillImg">
-                <img src="./images/html.jpeg" alt="Html" class="htmlskillImg" style="height: 80px;
-                width:80px; "/>
-                <img src="./images/css.jpeg" alt="Css" class="cssskillImg" style="height: 80px;
-                width:80px;" />
-                <img src="./images/javascript.jpeg" alt="Javascript" class="javaskillImg" style="height: 80px;
-                width:80px;"/>
+                <img src="./images/html.jpeg" alt="Html" class="htmlskillImg"/>
+                <img src="./images/css.jpeg" alt="Css" class="cssskillImg" />
+                <img src="./images/javascript.jpeg" alt="Javascript" class="javaskillImg" />
+                <img src="./images/mongo.jpeg" alt="MongoDB" class="mongodb" >
+                <img src="./images/react.jpeg" alt="React" class="react" >
+                <img src="./images/node.jpeg" alt="NodeJs" class="node" >
             </div>
         </div>
         <div id="education">
             <h1>Education</h1>
-            <div class="eduContainer">
-                <div class="year">
-                    <h2 class="yearContainer">2018</h2>
-                    <h2 class="yearContainer">2020</h2>
-                    <h2 class="yearContainer">2021</h2>
-                    <h2 class="yearContainer">2022</h2>
-                </div>
-                <div class="qualification">
-                    <h3 class="quaContainer"> Completed 10<sup>th</sup> with 80%</h3>
-                    <h3 class="quaContainer">Completed 12<sup>th</sup> with 70%</h3>
-                    <h3 class="quaContainer">First year Completed with 89%</h3>
-                    <h3 class="quaContainer">Persuing</h3>
-
-                </div>
+            <div class="container">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Qaulification</th>
+                            <th>Year</th>
+                            <th>Board</th>
+                            <th>Percentage</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>SSC</th>
+                            <th>2018</th>
+                            <th>CBSE</th>
+                            <th>80%</th>
+                        </tr>
+                        <tr>
+                            <th>HSC</th>
+                            <th>2020</th>
+                            <th>HSC</th>
+                            <th>68%</th>
+                        </tr>
+                        <tr>
+                            <th>FY BBA(CA)</th>
+                            <th>2021</th>
+                            <th>SPPU</th>
+                            <th>89%</th>
+                        </tr>
+                        <tr>
+                            <th>SY BBA(CA)</th>
+                            <th>2022</th>
+                            <th>SPPU</th>
+                            <th>Persuing</th>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
         <div id="contact">
             <h1>Contact</h1>
-            <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31045.56347874413!2d74.56869337562135!3d21.610888717943027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1638806373398!5m2!1sen!2sin" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="mapContainer"></iframe>
-            </div>
-            <div class="contactContainer">
-                <div class="personal">
-                    <div class="text">
-                        <p>Shahada, Nandurbar</p>
-                        <p>Maharashtra, India</p>
+            <div class="container">
+                <div class="media">
+                    <div class="media-left col-md-6" >
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31045.56347874413!2d74.56869337562135!3d21.610888717943027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1638806373398!5m2!1sen!2sin" height="400px" width="400px" style="border:2px groove white; margin-top: 5%;" allowfullscreen="" loading="lazy" class="mapContainer"></iframe>
+                    </div>
+                    <div class="media-body">
+                        <div class="media-heading1">
+                            <div class="form-group">
+                                <div class="col-md-11">
+                                    <form action="" method="POST">
+                                        <label for="fname" form="form-control"></label>
+                                        <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                                    </form>
+                                </div>
+                                <div class="col-md-11">
+                                    <form action="" method="POST">
+                                        <label for="fname" form="form-control"></label>
+                                        <input type="text" name="lname" id="lname" placeholder="Last Name">
+                                    </form>
+                                </div>
+                                <div class="col-md-11">
+                                    <form action="" method="POST">
+                                        <label for="fname" form="form-control"></label>
+                                        <input type="text" name="phone." id="phone" placeholder="Contact Number" minlength="10" maxlength="10" required>
+                                    </form>
+                                </div>
+                                <div class="col-md-11">
+                                    <form action="" method="POST">
+                                        <label for="fname" form="form-control"></label>
+                                        <input type="text" name="email" id="email" placeholder="Email" required>
+                                    </form>
+                                </div>
+                                
+                                <div class="radio">
+                                    <label>Gender:</label>
+                                    <label>
+                                        <input type="radio" value="male" name="gender"/>Male
+                                    </label>
+                                    <div class="radio1">
+                                        <label>
+                                            <input type="radio" value="female" name="gender">Female
+                                        </label>
+                                    </div>
+                                <div class="col-md-11">
+                                    <form action="" method="POST">
+                                        <label for="comment" form="form-control"></label>
+                                        <textarea placeholder="Comment" class="form-control" id="comment"  row="6"></textarea>
+                                    </form>
+                                </div>
+                                <button class="btn btn-primary"type="submit">Submit</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="submit">
-                    <form>
-                        <label for="fname">First name:</label>
-                        <input type="text" id="fname" name="fname"><br> <br>
-                        <label for="lname">Last name:</label>
-                        <input type="text" id="lname" name="lname"><br><br>
-                        <label for="email">Email:</label>
-                        <input type="text" id="email" name="enmail"><br><br>
-                        <label for="fname">Contact No.:</label>
-                        <input type="text" id="contact" name="contact"><br><br>
-                        <button class="button">Submit</button><br><br>
-                    </form>
-                </div>
+                
+                
             </div>
         </div>
     </body>

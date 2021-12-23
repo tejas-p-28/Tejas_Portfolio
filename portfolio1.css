@@ -1,30 +1,63 @@
 body{
-    background-color:black;
     margin: auto;
+    background-color: black;
 }
-.headerContainer{
-    height: 50px;
-    width: 100%;
-    border: 2px solid black;
-    font-size: 40px;
-    text-decoration: none;
-    font-weight: bolder;
-    background-color: #6a7add;
-    margin: auto;
-    position: fixed;
+
+.media-heading{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 50px;
+    color:#dd2b66;
+    background-color: #000;
 }
-.topContainer{
-    font-style: normal;
-    color:#01161c;
-    margin-left: 12%;
-    text-decoration: none;
+
+.media-heading > span{
+    color: #EF6C06;
+    font-style: italic;
+    text-shadow: 1px 6px 9px  grey;
 }
-.content{
-    height: 300px;
-    width: 90%;
-    display: inline-block;
+.media-left{
     margin-left: 5%;
-    margin-top: 120px;
+}
+.mediaContainer{
+    font-size: 25px;
+    color: #fff;
+}
+.socials{
+    margin-left: 10%;
+}
+.socials1{
+    height: 30px;
+    width: 30px;
+    margin-left: 2%;
+}
+h1{ 
+    color: #dd2b66;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 50px;
+    background-color: rgb(151, 199, 221);
+}
+
+
+.form-group{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+label{
+    color: #fff;
+}
+.radio{
+
+    color: #fff;
+}
+.radio1{
+    margin-left: 16%;
+}
+.btn-primary{
+    margin-left: 3%;
+    margin-top: 5%;
+    
 }
 .imgContainer{
     height: 300px;
@@ -39,56 +72,23 @@ body{
     float: left;
 
 }
-#description{
-    height: 350px;
-    width: 74%;
-    float: right;
-    margin-top: -24%;
-    margin-left: 3%;
-}
-#description > .intro > span{
-    color: #EF6C06;
-    font-style: italic;
-    text-shadow: 1px 6px 9px  grey;
-}
-.intro{
-    font-size: 50px;
-    text-align: center;
-    font-weight: bolder ;
-    color: blanchedalmond;
-    
-}
-.iconContainer{
-    float: right;
-    width: 100%;
-    font-size: 25px;
-    font-weight: bold;
-    margin-left: 3%;
-    color: blanchedalmond;
-    
-}
-.icons{
-    margin-left: 10%;
-}
-.iconsSize{
-    margin-left: 0px;
-    height: 30px;
-    width: 30px;
-    margin-right: 0%;
-    background-color: black;
-}
-h1{
-    color: blanchedalmond;
-    text-align: center;
-    margin-top: 10%;
-    font-size: 50px;
-    color:#dd2b66;
-    background-color: rgb(151, 199, 221);
+.media-object{
+    border-radius: 5%;
 }
 .skillImg{
     display: inline-block;
-    margin-top: 20px;
-    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    width: 100%;
+}
+.skillImg > img{
+    height: 80px;
+    width: 80px;
+    margin-left: 2%;
+}
+.container > table{
+    margin-top: 4%;
 }
 #education{
     color: blanchedalmond;
