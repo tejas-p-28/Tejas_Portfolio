@@ -96,6 +96,7 @@ label{
     height: 80px;
     width: 80px;
     margin-left: 2%;
+    border-radius: 5px ;
 }
 .container > table{
     margin-top: 4%;
