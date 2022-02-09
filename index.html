@@ -3,14 +3,13 @@
         <title>Portfolio</title>
         <link rel="icon" href="images/img_108298.png">
         <link rel="stylesheet" href="portfolio1.css" type="text/css">
-        <link rel="File" href="second.html" type="text">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
-    <body style="background-color: black;">
+    <body class="body">
         <div class="header">
-            <nav class="navbar navbar-inverse " >
+            <div class="navbar navbar-inverse">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -20,16 +19,18 @@
                             <span class="icon-bar"></span>
                         </button>
                     </div>
-                    <div class="navbar-collapse collapse" id="portnav" style="position: fixed; background-color: rgb(49, 44, 44); width: 100%; margin-left: -1%;">
+                    <div class="navbar-collapse collapse" id="portnav">
                         <ul class="nav navbar-nav">
-                            <li class="margin"><a href="#description">Description</a></li>
-                            <li class="margin"><a href="#skills">Skills</a></li>
-                            <li class="margin"><a href="#education">Education</a></li>
-                            <li class="margin"><a href="#contact">Contact</a></li>
+                            <li class="margin" style="color: white; margin-top: 1%; padding-left: 30px;">Portfolio</li>
+                            <li class="margin" style="padding-left: 160px;"><a href="#description">Description</a></li>
+                            <li class="margin" style="padding-left: 30px;"><a href="#skills">Skills</a></li>
+                            <li class="margin" style="padding-left: 30px;"><a href="#education">Education</a></li>
+                            <li class="margin" style="padding-left: 30px;"><a href="#projects">Projects</a></li>
+                            <li class="margin" style="padding-left: 30px;"><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </div>
             <div id="description">
                 <div class="container">
                     <div class="media">
@@ -57,11 +58,11 @@
             <h1>Skills</h1>
             <div class="skillImg">
                 <img src="./images/html.jpeg" alt="Html" class="htmlskillImg"/>
-                <img src="./images/css.jpeg" alt="Css" class="cssskillImg" />
-                <img src="./images/javascript.jpeg" alt="Javascript" class="javaskillImg" />
-                <img src="./images/mongo.jpeg" alt="MongoDB" class="mongodb" >
-                <img src="./images/react.jpeg" alt="React" class="react" >
-                <img src="./images/node.jpeg" alt="NodeJs" class="node" >
+                <img src="./images/css.jpeg" alt="Css" class="cssskillImg"/>
+                <img src="./images/javascript.jpeg" alt="Javascript" class="javaskillImg"/>
+                <img src="./images/mongo.jpeg" alt="MongoDB" class="mongodb">
+                <img src="./images/react.jpeg" alt="React" class="react">
+                <img src="./images/node.jpeg" alt="NodeJs" class="node">
             </div>
         </div>
         <div id="education">
@@ -103,6 +104,19 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>
+        </div>
+        <div id="projects">
+            <h1>Projects</h1>
+            <div class="projects">
+                <div class="mydivouter">
+                    <img src="images/zomato.png" alt="zomato">
+                    <a href="https://tp-the-developer.github.io/Zomato-Website/" target="_blank"><button class="mybuttonoverlap btn btn-info">View Project</button></a>
+                </div>
+                <div class="mydivouter1">
+                    <img src="images/pharmaco.png" alt="pharmaco">
+                    <a href="https://tp-the-developer.github.io/Zomato-Website/" target="_blank"><button class="mybuttonoverlap btn btn-info">View Project</button></a>
+                </div>
             </div>
         </div>
         <div id="contact">

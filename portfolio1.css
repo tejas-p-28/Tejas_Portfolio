@@ -1,8 +1,15 @@
-body{
+.body{
     margin: auto;
     background-color: black;
+    width: 100%;
 }
-
+.navbar-inverse{
+    width: 100%;
+    position: fixed !important; 
+    background-color: rgb(49, 44, 44); 
+    font-size: 25px !important; 
+    z-index: 100;
+}
 .media-heading{
     text-align: center;
     margin-top: 10%;
@@ -67,21 +74,24 @@ label{
 }
 .img{
     height: 300px;
-    width: 100%;
-    
     float: left;
-
 }
 .media-object{
     border-radius: 5%;
 }
+#description{
+    display: inline-block !important;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
 .skillImg{
-    display: inline-block;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 25%;
-    width: 100%;
+   
 }
+
 .skillImg > img{
     height: 80px;
     width: 80px;
@@ -90,9 +100,7 @@ label{
 .container > table{
     margin-top: 4%;
 }
-#education{
-    color: blanchedalmond;
-}
+
 .eduContainer{
     height: auto;
     width: 100%;
@@ -119,12 +127,7 @@ h2{
     height: auto;
     width: auto;
 }
-.quaContainer{
-    margin-top: 1%;
-    font-size: 25px;
-    color: palegreen;
-    text-shadow: 4px 7px 11px  lightgrey;
-}
+
 
 .mapContainer{
     border-radius: 8% ;
@@ -164,4 +167,74 @@ input[type=text]{
 }
 footer{
     color: white;
+}
+.mydivouter > img{
+    height: 300px;
+    width: 500px;
+    float: left;
+    margin-top: 10%;
+    margin-bottom: 5%; 
+    border-radius: 20px;
+    border: 2px white groove;
+}
+
+.mydivouter1 > img{
+    height: 300px;
+    width: 500px;
+    float: left;
+    margin-top: 10%;
+    margin-bottom: 5%; 
+    margin-left: 5%; 
+    border-radius: 20px;
+    border: 2px white groove;
+}
+#contact{
+    display: inline-block;
+    width: 100%;
+}
+.mydivouter{
+    position:relative;
+    width: 200px;
+    height: 120px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 8%;
+}
+.mydivouter1{
+    position:relative;
+    width: 200px;
+    height: 120px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+.mydivoverlap{
+    position: relative;
+    z-index: 1;
+}
+.projects{
+    display: block;
+    height: 380px;
+}
+.mybuttonoverlap{
+    position: absolute;
+    z-index: 2;
+    display: none;
+    height: 40px;
+    width: 100px;
+    visibility: hidden;	
+}
+
+.mydivouter:hover .mybuttonoverlap{ 
+    display:block;
+    visibility: visible;
+    margin-top: 80%;
+    margin-left: 100%;
+}
+.mydivouter1:hover .mybuttonoverlap{ 
+    display:block;
+    visibility: visible;
+    margin-top: 80%;
+    margin-left: 110%;
 }
